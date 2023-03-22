@@ -3,7 +3,7 @@ kind: Job
 metadata:
   namespace: example06
   generateName: smoke-tests-
-    labels:
+  labels:
     codefresh.io/cert: smoke-job
   annotation:
     argocd.argoproj.io/hook: PostSync
